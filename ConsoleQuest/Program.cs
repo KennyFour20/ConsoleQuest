@@ -11,7 +11,8 @@ namespace ConsoleQuest
         static void Main(string[] args)
         {
             IntroductionAmend();
-            Introduction();
+            Console.ReadKey();
+            // Introduction();
             
         }
 
@@ -50,33 +51,50 @@ namespace ConsoleQuest
             Console.Write("Kia ora\nWelcome to my first test program" +
                 "\nI have thought of a great idea to do with a cosole based RPG.");
             Console.ReadKey();
-            Console.Write("\nSo basicaly, it will be based on console and what you choose is how it goes\n" +
-                "you will create a custom adventure and choosing a class to fit your style.\n" +
+            Console.Write("\nSo basically, it will be based on the console and what you choose is how the aventure goes.\n" +
+                "You will create a custom adventure and choosing a class to fit your style.\n" +
                 "When it comes to adventure you will be the guide of your own quest.\n" +
                 "Realistcaly I haven't come up with much. But as a project to start from.......\n");
 
-            Console.Write("------------------------------------\n" +
+            Console.Write("____________________________________\n" +
                 "\"Press Any Key To Continue\"");
-            Console.Write("\n------------------------------------\n");
+            Console.Write("\n____________________________________\n");
             Console.ReadKey();
 
             Console.Write("When you start, there is going to be some character customization\"Fitting\",Right?\n" +
                 "When creating your character you will be given a choise of 4 Preset \"Classes\".\n" +
                 "These classes signify the foundations of your characters attributes\n" +
                 "when given the choice you should choose between:\n");
-            Console.Write("------------------------------------\n" +
+            Console.Write("____________________________________\n" +
                 "\"Continue to view Classes:\"");
             Console.Write("\n____________________________________\n");
             Console.ReadKey();
-            Console.Write("Classes list:\n");
+            Console.Write("Class list:\n");
             Console.Write("____________________________________\n");
-            Console.WriteLine("\"Adventurer\""); 
+            Console.WriteLine("\n");
+            Console.WriteLine("\"Adventurer\"");
+            Console.ReadKey();
             Console.WriteLine("\"Mage\"");
+            Console.ReadKey();
             Console.WriteLine("\"Rouge\"");
+            Console.ReadKey();
             Console.WriteLine("\"Warrior\"");
+            Console.Write("\n____________________________________\n");
+            Console.ReadKey();
 
+            Console.Write("And with these classes you will begin your quest." +
+                "\nThe game you will play will varry slightley with the choices you make, attempting to create a unique\n" +
+                "gamming experiance. When this idea came to me, I felt like it could be used as a key to unlock,\n" +
+                "and create the potential of becoming a programer. Thank you to all who have assisted me\n" +
+                "and all who have given me the foundational knowledge to progress in this feild.\n\n\n");
+            Console.WriteLine("Enjoy the gameplay :) <3 ...");
+            Console.ReadKey();
+        }
 
-    }
+        static void MainIntro()
+        {
+            
+        }
 
 }
 

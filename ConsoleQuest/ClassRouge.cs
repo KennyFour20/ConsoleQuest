@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleQuest
 {
-    abstract class CharacterClass
+    class ClassRouge : CharacterClass
     {
-        public string Name;
+        ClassRouge() => Name = "Rouge";
     }
-
-    
-
-
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleQuest
 {
-    class Adventurer : CharacterClass
+    class ClassWarrior : CharacterClass
     {
-        Adventurer() => Name = "Adventurer";
+        ClassWarrior() => Name = "Warrior";
     }
 }
