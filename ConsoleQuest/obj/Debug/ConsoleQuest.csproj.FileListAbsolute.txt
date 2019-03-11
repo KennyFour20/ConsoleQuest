@@ -1,0 +1,7 @@
+C:\ConsoleQuest-Repository\ConsoleQuest\ConsoleQuest\bin\Debug\ConsoleQuest.exe.config
+C:\ConsoleQuest-Repository\ConsoleQuest\ConsoleQuest\bin\Debug\ConsoleQuest.exe
+C:\ConsoleQuest-Repository\ConsoleQuest\ConsoleQuest\bin\Debug\ConsoleQuest.pdb
+C:\ConsoleQuest-Repository\ConsoleQuest\ConsoleQuest\obj\Debug\ConsoleQuest.csprojAssemblyReference.cache
+C:\ConsoleQuest-Repository\ConsoleQuest\ConsoleQuest\obj\Debug\ConsoleQuest.csproj.CoreCompileInputs.cache
+C:\ConsoleQuest-Repository\ConsoleQuest\ConsoleQuest\obj\Debug\ConsoleQuest.exe
+C:\ConsoleQuest-Repository\ConsoleQuest\ConsoleQuest\obj\Debug\ConsoleQuest.pdb
