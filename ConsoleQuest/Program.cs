@@ -12,7 +12,9 @@ namespace ConsoleQuest
         {
             IntroductionAmend();
             Console.ReadKey();
-            // Introduction();
+            MainIntro();
+            Console.ReadKey();
+             //Introduction();
             
         }
 
@@ -93,6 +95,22 @@ namespace ConsoleQuest
 
         static void MainIntro()
         {
+            Console.Clear();
+            Console.Write("There is a cold wind.\nAs the breeze blows you find yourself to be entranced." +
+                "\n You can feel the blood dripping off your soles, onto the floor...");
+            Console.ReadKey();
+            Console.Write("Drip...");
+            Console.ReadKey();
+            Console.Write("Drip...");
+            Console.ReadKey();
+            Console.Write("Drip...\n");
+            Console.ReadKey();
+            Console.Write("You look up to see why you can't move your hands..\n\n" +
+                "They're bound by shackles, Chains of pure iron, cuffs of brutal steel.\n" +
+                "You look to the far side of the room and see another person, he looks at you back\n" +
+                "and returns a \"smile\". ");
+            Console.ReadKey();
+            Console.Clear();
             
         }
 
