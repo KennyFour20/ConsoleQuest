@@ -6,46 +6,37 @@ using System.Threading.Tasks;
 
 namespace ConsoleQuest
 {
+   
+
     class Program
     {
         static void Main(string[] args)
         {
-            IntroductionAmend();
-            Console.ReadKey();
-            MainIntro();
-            Console.ReadKey();
-             //Introduction();
             
+            
+            //IntroductionAmend();
+            //Console.ReadKey();
+            //MainIntro();
+            // NewClass();
+            Console.ReadKey();
+
+
+            Introduction();
+           
+
         }
 
 
+
+        
+
         static void Introduction()
         {
-            Console.WriteLine("Greetings");
-            Console.ReadKey();
-            Console.WriteLine("How are you?");
-            Console.ReadKey();
-            Console.WriteLine("Traveld much lately?");
-            Console.ReadKey();
-            Console.WriteLine("Well we have a treet for you....");
-            Console.ReadKey();
-            Console.WriteLine("Many times people came");
-            Console.ReadKey();
-            Console.WriteLine("And Many times they failed miseralby");
-            Console.ReadKey();
-            Console.WriteLine("Easment was what they craved");
-            Console.ReadKey();
-            Console.WriteLine("and when they got what they searched for");
-            Console.ReadKey();
-            Console.WriteLine("Life became a sore monstrosity");
-            Console.ReadKey();
-            Console.Write("---------------------------------\n" +
-                "Before the weather changed for good, the sun used to sine down like a holy bight,\n" +
-                "When the rain falls down from the south and makes the ground moist\n" +
-                "we slip and struggle to find our way for days.....\n" +
-                "There is something going to happen, one day...............\n" +
-                "I can feel it......");
-            Console.ReadKey();
+            Console.Write("Enter your Name:");
+            string NamePlace = Console.ReadLine();
+            Console.WriteLine("Greetings" + NamePlace + " Good to see you back");
+            Console.ReadLine();
+
         }
 
         static void IntroductionAmend()
@@ -96,8 +87,8 @@ namespace ConsoleQuest
         static void MainIntro()
         {
             Console.Clear();
-            Console.Write("There is a cold wind.\nAs the breeze blows you find yourself to be entranced." +
-                "\n You can feel the blood dripping off your soles, onto the floor...");
+            Console.Write("There is a cold wind.\nAs the breeze blows you find yourself to be entranced.\n" +
+                "You can feel the blood dripping off the soles of your feet, onto the floor...");
             Console.ReadKey();
             Console.Write("Drip...");
             Console.ReadKey();
@@ -105,18 +96,49 @@ namespace ConsoleQuest
             Console.ReadKey();
             Console.Write("Drip...\n");
             Console.ReadKey();
-            Console.Write("You look up to see why you can't move your hands..\n\n" +
-                "They're bound by shackles, Chains of pure iron, cuffs of brutal steel.\n" +
-                "You look to the far side of the room and see another person, he looks at you back\n" +
+            Console.Write("\nYou look up to see why you can't move your hands..\n" +
+                "They're bound by shackles, Chains of pure iron, cuffs of cold steel.\n" +
+                "You look to the far side of the room and see another person, he looks back at you\n" +
                 "and returns a \"smile\". ");
             Console.ReadKey();
             Console.Clear();
-            
+            Console.Write("\"The Name's Bryan....\"");
+            Console.ReadKey();
+            Console.Write("\n\"In this place we are equals, no majersty, no sire...\"" +
+                "\n\"Just you....\"\n");
+            Console.ReadKey();
+            Console.Write("\"...and me\"");
+            Console.ReadKey();
+            Console.Clear();
+            Console.Write("\"I bet your pretty face don't know how it ended up here eh?\"\n" +
+                "\"I bet you even think you're innocent...\"\n");
+            Console.ReadKey();
+            Console.Write("\"Pig...\"\n");
+            Console.ReadKey();
+            Console.Write("\"you might be interested to find out about your future? But a pig like you wouldn't know how to take it though\"");
+            Console.ReadKey();
+            Console.Write("\n\n\n You look into Bryans eyes and see them glint, he might be holding somthing back...?\n\n\n");
+            Console.ReadKey();
+            Console.Write("\"You know what pain is, Pig?\"");
+
+            Console.ReadLine();
+
+
+
+            Console.ReadKey();
+
         }
 
-}
+        
 
-        }   
+
+
+
+
+
+    }
+
+}  
 
 
 

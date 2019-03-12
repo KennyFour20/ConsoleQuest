@@ -8,6 +8,6 @@ namespace ConsoleQuest
 {
     class ClassWarrior : CharacterClass
     {
-        ClassWarrior() => Name = "Warrior";
+        ClassWarrior() => ClassName = "Warrior";
     }
 }

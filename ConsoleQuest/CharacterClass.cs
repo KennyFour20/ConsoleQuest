@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleQuest
 {
-    abstract class CharacterClass
+    public class CharacterClass
     {
-        public string Name;
+        public string ClassName = Console.ReadLine();
     }
 
-    
+   
+
+
+
+
+
 
 
 }
